@@ -51,12 +51,11 @@ with features to manage dates, times, locations, and involved personnel
 students to avoid redundancy and ensure comprehensive communication
 channels.
 
-EER Model
+## EER Model
 
-![](Diagrams/EER/EER.jpg){width="6.6929in"
-height="5.4465in"}
+![](Diagrams/EER/EER.jpg)
 
-Relational Schema
+## Relational Schema
 
 The schema is fully normalized and comprehensively delineates all
 tables, attributes, primary keys, and foreign keys, which are all
@@ -65,8 +64,7 @@ Referential integrity is guaranteed through the judicious assignment of
 foreign keys. Given that the relational schema is normalized, functional
 dependencies exist in relation to the primary keys.
 
-![](Diagrams/Relational_Schema.png){width="6.6929in"
-height="3.9701in"}
+![](Diagrams/Relational_Schema.png)
 
 ## How to Use
 
