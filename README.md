@@ -1,4 +1,33 @@
-Project Description: School Management System Database (SMS Database)
+<a name="readme-top"></a>
+
+
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+
+<h3 align="center">School Management System Database (SMS Database)</h3>
+
+  <p align="center">
+<!--     <a href="https://github.com/youssef-mansor/CLIR-using-BERT">View Demo</a> -->
+<!--     · -->
+    <a href="https://github.com/youssef-mansor/CLIR-using-BERT/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/youssef-mansor/CLIR-using-BERT/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+## About The Project
 
 SMS is a comprehensive database application designed to streamline and
 enhance the administrative and academic management of educational
@@ -6,54 +35,28 @@ institutions. The core of the SMS is a relational database that
 integrates all facets of school operations, from student and teacher
 management to class scheduling and event organization.
 
-Main Functionality:
+### Main Functionality:
 
-**1. Student and Teacher Profiles**: Storage of detailed information for
+- **1. Student and Teacher Profiles**: Storage of detailed information for
 students and teachers, including contact information like emails, phone
 numbers, and addresses.
 
-**2. Class Management: **Management of class schedules, including
+- **2. Class Management:** Management of class schedules, including
 details about subjects, timings, and assigned teachers.
 
-**3. Event Organization: **Coordination and planning of school events,
+- **3. Event Organization:** Coordination and planning of school events,
 with features to manage dates, times, locations, and involved personnel
 
-**4. Contact Management: **Handling multiple contact details for
+- **4. Contact Management:** Handling multiple contact details for
 students to avoid redundancy and ensure comprehensive communication
 channels.
 
-Plan of Development:
-
-**1. Database Design: **Begin with designing a robust and scalable
-database EER Model then translate it into relational schema with tables
-for students, teachers, classes, events, and contact information.
-Incorporate integrity constraints, referential integrity, and
-normalization principles to ensure data consistency and reliability.
-
-**2. Data Insertion and Validation: **Populate the database with initial
-data and perform testing to validate data integrity and constraint
-enforcement.
-
 EER Model
-
-The full resolution picture is inside diagrams folder.
-
-The diagram include
-
-- Entities
-- Attributes
-- Unique identifiers
-- Relationships and their cardinalities using (min, max) notation
-- Supertype/subtype relationshiop
-- Disjoint, completeness and total participation constriants
-- Notes about different assumptions and decisions taken.
 
 ![](Diagrams/EER/EER.jpg){width="6.6929in"
 height="5.4465in"}
 
 Relational Schema
-
-The full resolution picture is inside diagrams folder.
 
 The schema is fully normalized and comprehensively delineates all
 tables, attributes, primary keys, and foreign keys, which are all
@@ -65,7 +68,7 @@ dependencies exist in relation to the primary keys.
 ![](Diagrams/Relational_Schema.png){width="6.6929in"
 height="3.9701in"}
 
-**Creating the Database**:
+## How to Use
 
 The creation, population, and testing of the database is divided into 3
 different files in the code folder.
@@ -76,3 +79,25 @@ different files in the code folder.
 
 To see the results of the execution of the above code refer to the
 document named "screenshots"
+
+## Tech Stack
+
+The project utilizes the following Oracle database technologies:
+
+[![Oracle Database](https://img.shields.io/badge/Oracle%20Database-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/database/)
+[![Oracle SQL Developer](https://img.shields.io/badge/Oracle%20SQL%20Developer-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/database/technologies/appdev/sql-developer.html)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/youssef-mansor/CLIR-using-BERT.svg?style=for-the-badge
+[contributors-url]: https://github.com/youssef-mansor/CLIR-using-BERT/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/youssef-mansor/CLIR-using-BERT.svg?style=for-the-badge
+[forks-url]: https://github.com/youssef-mansor/CLIR-using-BERT/network/members
+[stars-shield]: https://img.shields.io/github/stars/youssef-mansor/CLIR-using-BERT.svg?style=for-the-badge
+[stars-url]: https://github.com/youssef-mansor/CLIR-using-BERT/stargazers
+[issues-shield]: https://img.shields.io/github/issues/youssef-mansor/CLIR-using-BERT.svg?style=for-the-badge
+[issues-url]: https://github.com/youssef-mansor/CLIR-using-BERT/issues
+[license-shield]: https://img.shields.io/github/license/youssef-mansor/CLIR-using-BERT.svg?style=for-the-badge
+[license-url]: https://github.com/youssef-mansor/CLIR-using-BERT/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/youssef-m-86a690174/
+[product-screenshot]: images/screenshot.png
